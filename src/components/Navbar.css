@@ -1,0 +1,46 @@
+.navbar{
+    width: 100%;
+    background-color: rgb(19, 18, 18);
+    color: aliceblue;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50rem;
+}
+
+.navbar .navbar-logo{
+    color: rgb(48, 229, 97);
+    padding: 10px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 44px;
+    font-family: 'Times New Roman', Times, serif;
+    gap: 15px;
+}
+
+.navbar .navbar-logo img{
+    width: 50px;
+    
+}
+
+.navbar .navbar-menu{
+    
+    color: rgb(48, 229, 97);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 85px;
+    padding: 10px;
+    list-style: none;
+}
+
+.navbar-menu a{
+    color: rgb(48, 229, 97);
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
